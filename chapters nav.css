@@ -1,0 +1,62 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@400;500&display=swap");
+
+nav {
+  position: absolute;
+  top: 20px; /* ปรับตามที่ต้องการเพื่อให้ห่างจากขอบบน */
+  right: 20px; /* ปรับตามที่ต้องการเพื่อให้ห่างจากขอบขวา */
+  background: transparent;
+  backdrop-filter: blur(10px);
+  width: 360px;
+  display: flex;
+  justify-content: space-between;
+  padding: 5px;
+  border-radius: 22px;
+  box-shadow: 20px 20px 20px rgba(0, 0, 0, 0.3);
+  border: 2px solid rgba(255, 255, 255, 0.5);
+}
+
+nav > a {
+  color: white;
+  text-decoration: none;
+  padding: 8px 16px;
+  border-radius: 22px;
+}
+  
+nav > a:hover {
+  transition: 0.25s;
+  background: rgba(56, 130, 209, 0.9);
+  color: black;
+}
+
+h1 {
+  color: rgb(255, 255, 255);
+  font-size: 28px;
+  margin-top: 50px;
+  margin-left: 10px;
+}
+
+body {
+  font-family: Inter, sans-serif;
+  /*height: 100vh;*/
+  color: white;
+  background-color: #000a1f;
+  display: flex;
+  /*justify-content: center;
+  align-items: center;*/
+}
+
+video {
+  position: absolute;
+  top: 150px;
+  left: 100px;
+}
+
+footer {
+  margin-top: 50%;
+  display: block;
+  width: 1554px;
+  background-color: #ffffff;
+  height: 80px;
+  margin-bottom: -20px;
+  margin-left: -14%;
+}

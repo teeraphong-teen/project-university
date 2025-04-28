@@ -1,0 +1,67 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@400;500&display=swap");
+
+nav {
+  position: absolute;
+  top: 20px; /* ปรับตามที่ต้องการเพื่อให้ห่างจากขอบบน */
+  right: 20px; /* ปรับตามที่ต้องการเพื่อให้ห่างจากขอบขวา */
+  background: transparent;
+  backdrop-filter: blur(10px);
+  width: 360px;
+  display: flex;
+  justify-content: space-between;
+  padding: 5px;
+  border-radius: 22px;
+  box-shadow: 20px 20px 20px rgba(0, 0, 0, 0.3);
+  border: 2px solid rgba(255, 255, 255, 0.5);
+}
+
+nav > a {
+  color: black;
+  text-decoration: none;
+  padding: 8px 16px;
+  border-radius: 22px;
+}
+  
+nav > a:hover {
+  transition: 0.25s;
+  background: rgba(56, 130, 209, 0.9);
+  color: white;
+}
+
+h1 {
+  color: black;
+  font-size: 10vh;
+  margin-top: 5%;
+}
+
+body {
+  font-family: Inter, sans-serif;
+  color: white;
+  margin: 0;
+  padding: 20px;
+  min-height: 100vh;
+  background-color: khaki;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+  
+iframe {
+  position: absolute;
+  top: 250px;
+  left: 350px;
+  width: 100%;
+  max-width: 800px;
+  height: 640px;
+  border: none;
+}
+
+.footer {
+  margin-top: 48%; 
+  display: block;
+  width: 1510px;
+  background-color: #ffffff;
+  height: 80px;
+  margin-bottom: -20px;
+}

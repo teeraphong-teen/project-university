@@ -1,0 +1,88 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@400;500&display=swap");
+
+h1 {
+  background: linear-gradient(to right, #cf23cf, #ff6b08,#eedd44, #f32170);
+  -webkit-background-clip: text;
+  background-clip: text;
+  -webkit-text-fill-color: transparent;
+
+  margin-top: 16%;
+  font-size: 70px;
+  display: flex;
+  justify-content: center;
+}
+
+body {
+  /*display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;*/
+  margin: 0;
+  font-family: Inter, sans-serif;
+  font-family: "Sarabun", sans-serif;
+  background: url(./image/ibispaint.png)no-repeat;
+  background-size: cover;
+}
+
+.btn {
+  position: absolute;
+  top: 500px;
+  left: 43%;
+  position: relative;
+  width: 200px;
+  height: 60px;
+  background: #FFD700;
+  border-radius: 60px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: rgba(255, 255, 255, 0.5);
+  text-decoration: none;
+  letter-spacing: 2px;
+  border-top: 2px solid rgba(255, 255, 255, 0.5);
+  border-left: 2px solid rgba(255, 255, 255, 0.5);
+  padding-left: 40px;
+  transition: 0.5s;
+  overflow: hidden;
+}
+
+.btn:hover {
+  padding-left: 0px;
+  padding-right: 40px;
+  color: black;
+}
+
+.btn span {
+  position: absolute;
+  left: 5px;
+  width: 50px;
+  height: 50px;
+  background: #04fe4d;
+  border-radius: 50%;
+  transition: 0.5s ease-in-out;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: white;
+  font-size: 1.5em;
+}
+
+.btn:hover span {
+  left: calc(100% - 55px);
+  color: black;
+}
+
+.btn:after {
+  content: '';
+  position: absolute;
+  width: 50px;
+  height: 100%;
+  z-index: 1;
+  background: rgba(255, 255, 255, 0.5);
+  transform: translateX(-170px) skewX(30deg);
+  transition: 0.75s ease-in-out;
+}
+
+.btn:hover:after {
+  transform: translateX(170px) skewX(30deg);
+}
