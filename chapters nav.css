@@ -45,12 +45,6 @@ body {
   align-items: center;*/
 }
 
-video {
-  position: absolute;
-  top: 150px;
-  left: 100px;
-}
-
 footer {
   margin-top: 50%;
   display: block;
@@ -59,4 +53,10 @@ footer {
   height: 80px;
   margin-bottom: -20px;
   margin-left: -14%;
+}
+
+iframe {
+  position: absolute;
+  top: 150px;
+  left: 100px;
 }
